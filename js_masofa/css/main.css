@@ -1,0 +1,50 @@
+.container{
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.form-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 50px;
+  list-style: none;
+}
+.form-title{
+  margin-top: 0;
+}
+.form-item{
+  text-align: center;
+  border: 1px solid;
+  padding: 20px;
+}
+.form-item::before{
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-image: url("../images/odam.png");
+  background-size: contain;
+  content: "";
+}
+.form-item:nth-child(2)::before{
+  background-image: url("../images/velosiped.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+}
+.form-item:nth-child(3)::before{
+  background-image: url("../images/mashina.webp");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+}
+.form-item:nth-child(4)::before{
+  background-image: url("../images/samalyot.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+}
